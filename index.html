@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>Forever & Always — Daily Fortune</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page" aria-live="polite">
+    <header class="brand">Forever &amp; Always</header>
+
+    <section class="cookie-stage" aria-label="Today's fortune">
+      <img class="cookie-image" src="fortune-reference.jpeg" alt="An opened fortune cookie with a paper fortune" />
+      <div class="fortune-mask" aria-hidden="true"></div>
+      <p id="fortune" class="fortune"></p>
+    </section>
+
+    <footer class="footer">
+      <div class="return">COME BACK TOMORROW</div>
+      <time id="date" class="date"></time>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
